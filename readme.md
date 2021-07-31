@@ -11,7 +11,7 @@ O nosso MVP do site é a plataforma de e-commerce, onde trabalharemos com a vend
 
 1) Acessar o seu github. Caso não tenha, é necessário criar uma conta no seguinte endereço -> https://github.com/
 2) Acessar o seu editor de código de preferência e inicie um projeto novo (no local onde você pretende salvar a pasta do projeto)
-3) Abra o terminal (powershell) do editor do código e digite o seguinte comando -> git clone https://github.com/gustavo-esteves/projeto-integrador-kombucha.git (IMPORTANTE: você precisa estar na pasta onde deseja criar o repositório)
+3) Abra o terminal (powershell) do editor do código e digite o seguinte comando -> git clone https://github.com/rloading/projeto_kombucha.git (IMPORTANTE: você precisa estar na pasta onde deseja criar o repositório)
 4) Depois de clonar o repositório, você já vai ter o projeto instalado localmente no seu computador com todas as dependências
 5) Para começar a rodar, digite novamente no terminal o seguinte comando `npm install`
 6) Após isso, digite outro comando `npm run dev`
