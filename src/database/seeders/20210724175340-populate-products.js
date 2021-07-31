@@ -17,7 +17,7 @@ module.exports = {
       [
         {
           id: '1',
-          name: 'BANCHA',
+          name: 'ORIGINAL',
           price: 12.00,
           description: 'Demos nosso toque extra a uma receita tradicional.',
           image: '/img/bancha.png',
@@ -31,7 +31,7 @@ module.exports = {
           name: 'MORANGO COM GENGIBRE',
           price: 12.00,
           description:
-            'O aroma doce e levemente ácido do morango que combinado ao gengibre proporciona uma bebida deliciosamente refrescante.',
+            'O aroma doce e levemente ácido do morango combinado ao gengibre.',
           image: '/img/morango.png',
           classes: 'azul2',
           createdAt: new Date(),
@@ -43,7 +43,7 @@ module.exports = {
           name: 'JASMIM',
           price: 12.00,
           description:
-            'O aroma do Jasmim em fusão com o ácido láctico carrega um sabor único e muito perfumado.',
+            'O aroma do Jasmim em fusão com o ácido láctico carrega um sabor único.',
           image: '/img/jasmim.png',
           classes: 'verde',
           createdAt: new Date(),
@@ -52,10 +52,10 @@ module.exports = {
 
         {
           id: '4',
-          name: 'GENGIBRE COM AÇAFRÃO DA TERRA',
+          name: 'GENGIBRE COM AÇAFRÃO',
           price: 12.00,
           description:
-            'O gengibre oferece notas picantes que harmonizam muito bem com o açafrão, produzindo uma bebida extremamente saborosa.',
+            'O gengibre oferece notas picantes que harmonizam muito bem com o açafrão.',
           image: '/img/gengibre-acafrao.png',
           classes: 'azul1',
           createdAt: new Date(),
@@ -67,7 +67,7 @@ module.exports = {
           name: 'FLORAL',
           price: 12.00,
           description:
-            'Com um mix de flores bem trabalhado, buscamos um aroma floral-amadeirado para nossa garrafa.',
+            'Com um mix de flores bem trabalhado, buscamos um aroma floral-amadeirado.',
           image: '/img/floral.png',
           classes: 'laranja',
           createdAt: new Date(),

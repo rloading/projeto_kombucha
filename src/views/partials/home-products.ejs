@@ -4,26 +4,29 @@
     <div class="col-4">
       <div class="boxSabores">
         <div class="box-titulo-sabor <%= product.classes %>">
-          <img src="<%= product.image %>" alt="" class="garrafa"/>
+          <img src="<%= product.image %>" alt="" class="garrafa" />
+          <br>
           <h2>
             <%= product.name %>
           </h2>
+          <br>
+
         </div>
         <div class="box-invisivel">
-          <h3 class="valor"><%= product.price %></h3>
+          <h3 class="valor">R$ <%= product.price %>,00</h3>
           <hr class="line-sabores" />
-          
+
           <p>
             <%= product.description %> <br>
-           
+
           </p>
-          
+
           <a href="/carrinho/add/<%= product.id %>" class="btn <%= product.classes %>">COMPRAR</a>
         </div>
-        
+
       </div>
     </div>
-    
+
     <% }) %>
 </div>
 

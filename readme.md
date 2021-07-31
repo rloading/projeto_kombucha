@@ -57,4 +57,5 @@ Todos os produtos: SEM CONSERVANTES / SEM GLÚTEN / SEM CORANTES / SEM LACTOSE
 4) Depois de clonar o repositório, você já vai ter o projeto instalado localmente no seu computador com todas as dependências
 5) Para começar a rodar, digite novamente no terminal o seguinte comando `npm install`
 6) Após isso, digite outro comando `npm run dev`
-7) Agora você já está pronto para visualizar a página, abra o navegador e digite a seguinte URL: [http://localhost:3000](http://localhost:3000)
+7) Migrar banco de dados com os comandos `npx sequelize-cli db:migrate`, e para popular o banco com `npx sequelize-cli db:seed:all`
+8) Agora você já está pronto para visualizar a página, abra o navegador e digite a seguinte URL: [http://localhost:3000](http://localhost:3000)
