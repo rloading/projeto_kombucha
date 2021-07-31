@@ -4,8 +4,20 @@ Grupo_03
 
 ## OBJETIVO
 Criação de um sistema ecommerce para comercialização e venda da bebida de fermentação natural chamada Kombucha.
-Nosso projeto é um site híbrido onde teremos dois principais focos: informação e venda.
+Nosso projeto é um site onde teremos o foco de venda do produto Ohmbucha.
 O nosso MVP do site é a plataforma de e-commerce, onde trabalharemos com a venda dos 5 principais produtos da nossa empresa fictícia.
+
+## INSTRUÇÕES DE INSTALAÇÃO DO PROJETO
+
+1) Acessar o seu github. Caso não tenha, é necessário criar uma conta no seguinte endereço -> https://github.com/
+2) Acessar o seu editor de código de preferência e inicie um projeto novo (no local onde você pretende salvar a pasta do projeto)
+3) Abra o terminal (powershell) do editor do código e digite o seguinte comando -> git clone https://github.com/gustavo-esteves/projeto-integrador-kombucha.git (IMPORTANTE: você precisa estar na pasta onde deseja criar o repositório)
+4) Depois de clonar o repositório, você já vai ter o projeto instalado localmente no seu computador com todas as dependências
+5) Para começar a rodar, digite novamente no terminal o seguinte comando `npm install`
+6) Após isso, digite outro comando `npm run dev`
+7) Migrar banco de dados com os comandos `npx sequelize-cli db:migrate`, e para popular o banco com `npx sequelize-cli db:seed:all`
+8) Agora você já está pronto para visualizar a página, abra o navegador e digite a seguinte URL: [http://localhost:3000](http://localhost:3000)
+
 
 ### Alunos:
  - Bruno Perez
@@ -49,13 +61,3 @@ Todos os produtos: SEM CONSERVANTES / SEM GLÚTEN / SEM CORANTES / SEM LACTOSE
 
 -----------------------------------------------------------------------------
 
-## INSTRUÇÕES DE INSTALAÇÃO DO PROJETO
-
-1) Acessar o seu github. Caso não tenha, é necessário criar uma conta no seguinte endereço -> https://github.com/
-2) Acessar o seu editor de código de preferência e inicie um projeto novo (no local onde você pretende salvar a pasta do projeto)
-3) Abra o terminal (powershell) do editor do código e digite o seguinte comando -> git clone https://github.com/gustavo-esteves/projeto-integrador-kombucha.git (IMPORTANTE: você precisa estar na pasta onde deseja criar o repositório)
-4) Depois de clonar o repositório, você já vai ter o projeto instalado localmente no seu computador com todas as dependências
-5) Para começar a rodar, digite novamente no terminal o seguinte comando `npm install`
-6) Após isso, digite outro comando `npm run dev`
-7) Migrar banco de dados com os comandos `npx sequelize-cli db:migrate`, e para popular o banco com `npx sequelize-cli db:seed:all`
-8) Agora você já está pronto para visualizar a página, abra o navegador e digite a seguinte URL: [http://localhost:3000](http://localhost:3000)
