@@ -36,12 +36,12 @@ class SiteController {
         items: Object.values(cart.items),
         total: calculateTotal(cart),
         quantidadeTotal: calculateQuantidadeTotal(cart)
-      }, 
+      },
       isCarrinhoPage: true
     })
   }
 
-  
+
   static async addToCart(req, res) {
     const cart = req.session.cart || { items: {} }
 
@@ -58,7 +58,7 @@ class SiteController {
         image: product.image
       }
     }
-    
+
     req.session.cart = cart
 
     res.redirect('/#sabores')
@@ -121,6 +121,12 @@ class SiteController {
         error: 'Erro inesperado'
       })
     }
+  }
+
+  static compraEfetuada(req, res) {
+    res.render('compra', {
+      title: 'Compra Efetuada'
+    })
   }
 
   static doLogout(req, res) {
