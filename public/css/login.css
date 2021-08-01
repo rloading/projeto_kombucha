@@ -66,7 +66,7 @@ input#password {
   box-shadow: 0 0 5px #ffed4c;
 }
 
-button {
+button#btn-login {
   height: 25px;
   color: #11998e;
   background: #fff;
@@ -75,7 +75,7 @@ button {
   box-shadow: 0 0 5px #ffed4c;
 }
 
-button:hover {
+button#btn-login:hover {
   color: #000;
   background-color: #ffed4c;
   font-weight: 700;

@@ -121,7 +121,7 @@ footer {
   color: #f2f2f2;
 }
 
-.right form .btn {
+.right form button#btn-footer {
   width: 100%;
   padding: 0;
 }
@@ -134,11 +134,11 @@ footer {
   height: 35px;
 }
 
-.right form .btn {
+.right form button#btn-footer {
   margin-top: 10px;
 }
 
-.right form .btn button {
+.right form button#btn-footer {
   height: 40px;
   width: 100%;
   border: none;
@@ -151,7 +151,7 @@ footer {
   color: #ffffff;
 }
 
-.right form .btn button:hover {
+.right form button#btn-footer:hover {
   background: #ffed4c;
   color: #000;
 }

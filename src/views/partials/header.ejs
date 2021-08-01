@@ -33,7 +33,8 @@
 
       <!-- Menu de navegação -->
       <% if (!locals.isCarrinhoPage) { %>
-        <nav class="menu">
+        <button id="btnMenu" title="Menu">☰</button>
+        <nav id="nav">
           <ul>
 
             <li><a href="/#sabores">produtos</a></li>
@@ -45,7 +46,7 @@
                 <li class="carrinho"><a href="/carrinho">carrinho
                     <i class="fas fa-shopping-cart" style="color: #ffed4c"></i></a></li>
           </ul>
-        </nav>
+        
         <% } %>
           <!-- Barra de pesquisa
 
@@ -79,5 +80,7 @@
                 </li>
               </ul>
             </div>
+          </nav>
             <% } %>
+            
 </header>

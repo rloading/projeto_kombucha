@@ -50,7 +50,7 @@ input {
   box-shadow: 0 0 5px #ffed4c;
 }
 
-button {
+button#btn-cadastro {
   color: #11998e;
   font-weight: 700;
   border: none;
@@ -61,7 +61,7 @@ button {
   font-size: 17px;
 }
 
-button:hover {
+button#btn-cadastro:hover {
   color: #000;
   background-color: #ffed4c;
   font-weight: 700;
