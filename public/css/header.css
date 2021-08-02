@@ -64,7 +64,7 @@
 /*----- Menu -----*/
 
 button#btnMenu {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
   box-shadow: 5px 5px 5px 3px rgba(0,0,0,0.09);
   border-radius: 5px; 
   color: white;
@@ -86,7 +86,7 @@ nav {
   top: 0;
   right: 0;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 2rem;
   transform: translateX(100%);
   transition: transform 0.3s ease-in-out;

@@ -29,58 +29,21 @@
 
 [class*="col-"] {
   float: left;
-  padding: 15px;
+  padding: 30px;
   box-sizing: border-box;
 }
 
-.col-1 {
-  width: 8.33%;
-}
-
-.col-2 {
-  width: 16.66%;
-}
-
-.col-3 {
-  width: 25%;
-}
 
 .col-4 {
+  z-index: -1;
+  display: block;
   width: 40%;
   height: fit-content;
+  margin-left: 5vw;
+  align-items: center;
 }
 
-.col-5 {
-  width: 41.66%;
-}
 
-.col-6 {
-  width: 50%;
-}
-
-.col-7 {
-  width: 58.33%;
-}
-
-.col-8 {
-  width: 66.66%;
-}
-
-.col-9 {
-  width: 75%;
-}
-
-.col-10 {
-  width: 83.33%;
-}
-
-.col-11 {
-  width: 91.66%;
-}
-
-.col-12 {
-  width: 100%;
-}
 
 .wrapper {
   box-sizing:border-box;
@@ -107,6 +70,7 @@
 }
 
 .titulo2 {
+  float: right;
   color: #6d8742;
   margin: -71px 0px 17px 19px;
   font-size: 2rem;
@@ -237,7 +201,7 @@
   background: #fff;
   box-sizing: border-box;
   padding: 14px 0px;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px;
 }
 
 .box-titulo-sabor h2 {
@@ -265,11 +229,12 @@
 }
 
 .btn {
-  display: block;
-  margin: 0px auto;
+  margin-left: 10vw;
   font-size: 1.5rem;
-  padding: 10px 20px;
+  font-weight: 600;
+  padding: 10px;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .btn:hover {
@@ -280,44 +245,38 @@
 }
 
 .garrafa {
-  position: absolute;
- 
-  top: -32px;
+  position: absolute; 
+  top: -40px;
   left: -10px;
   width: 20%;
   height: auto;
 }
 
-.box-invisivel {
-  background: #fff;
-  border-radius: 10px 0px;
-  box-sizing: border-box;
-  padding: 11px 0px 11px 43px;
-}
 
 .rosa {
-  background: #f78e89;
-  transition-duration: 0.3s;
+  background: #9ec066;
+  color: #fff;
 }
 
 .laranja {
   background: #e98441;
+  color: #fff;
 }
 
 .azul1 {
   background: #82b2ce;
+  color: #fff;
 }
 
 .verde {
-  background: #9ec066;
+  background: #f78e89;
+  color: #fff;
 }
 
 .azul2 {
   background: #9fe0ca;
-}
+  color: #fff;
 
-.azul3 {
-  background: #8297ce;
 }
 
 /*Planos de Assinatura*/
