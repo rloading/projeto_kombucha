@@ -5,7 +5,7 @@
   justify-content: left;
   flex-wrap: wrap;
   align-items: center; 
-  box-shadow: 5px 5px 5px 3px rgba(0,0,0,0.10);
+  position: fixed;
   background-color: rgb(131, 165, 100, 0.7);
   width: 100%;
   
@@ -18,7 +18,7 @@
 
 #cabecalho img {
   display: flex;
-  width: 70px;
+  width: 5vw;
   padding: 5px;
   border-radius: 50px;
 }
@@ -30,7 +30,7 @@
   color: #f2f2f2;
   margin-left: 2vw;
   font-family: var(--font-secondary);
-  font-size: 1.5rem;
+  font-size: 2.5vw;
 }
 
 #cabecalho h1:hover {
@@ -47,7 +47,7 @@
 
 .home {
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 2vw;
  
   color: #f2f2f2;
 }
@@ -74,7 +74,7 @@ button#btnMenu {
   padding: 0.5rem;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
-  font-size: 20px;
+  font-size: 1vw;
 }
 
 button.active {
@@ -102,7 +102,7 @@ nav ul {
   align-items: baseline;
   flex-wrap: wrap;
   list-style-type: none;
-  font-size: 0.7rem;
+  font-size: 1.5vh;
   padding: 0;
 }
 
@@ -111,7 +111,7 @@ nav li {
   flex-wrap: wrap;
   color: #f2f2f2;
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 1.5vh;
   font-family: var(--font-primary);
   justify-content: start;
   padding: 5px;
@@ -176,4 +176,11 @@ a {
 
 a:hover {
   color: #ffed4c;
+}
+
+@media only screen and (max-width: 768px) {
+  
+  #cabecalho {
+    width: 100%;
+  }
 }

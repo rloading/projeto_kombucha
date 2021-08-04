@@ -127,6 +127,8 @@ class SiteController {
     res.render('compra', {
       title: 'Compra Efetuada'
     })
+    req.session.destroy()
+
   }
 
   static doLogout(req, res) {
