@@ -5,7 +5,6 @@ body {
 }
 
 section {
-  margin-top: 10vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -19,6 +18,7 @@ section {
 }
 
 .col-25 {
+  margin: 20px;
   color: #fff;
   width: 30vw;
   height: 20%;
@@ -29,6 +29,7 @@ section {
 }
 
 .col-75 {
+  margin: 20px;
   color: #fff;
   width: 50vw;
   height: 20%;
@@ -42,7 +43,7 @@ b, h2, label {
   font-size: 2vh;
 }
 
-input#email, input#password {
+input {
   align-content: right;
   width: 75%;
   margin-bottom: 10px;
