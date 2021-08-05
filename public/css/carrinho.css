@@ -97,7 +97,7 @@ span.price {
 
 @media only screen and (max-width: 768px) {
   
-  [class*="col-"] {
+  [class*="col-"], form {
     width: 100%;
   }
 }

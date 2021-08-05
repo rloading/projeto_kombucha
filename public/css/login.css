@@ -2,7 +2,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css");
 
 body {
-  background: rgb(131, 165, 100);
+  background: rgb(131, 165, 100, 0.7);
   color: #f2f2f2;
   text-decoration: none;
 }
@@ -31,7 +31,7 @@ body {
   display: flex;
   align-items: center;
   font-family: var(--font-secondary);
-  font-size: 1.5rem;
+  font-size: 1.5vw;
 }
 
 .logo label:hover {
@@ -54,15 +54,14 @@ form {
 }
 
 input#email {
-  border-radius: 5px;
+  border-radius: 3px;
   width: 230px;
-  height: 25px;
   box-shadow: 0 0 5px #ffed4c;
 }
 
 input#password {
-  border-radius: 5px;
-  height: 25px;
+  border-radius: 3px;
+  width: 230px;
   box-shadow: 0 0 5px #ffed4c;
 }
 
@@ -83,7 +82,7 @@ button#btn-login:hover {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1vw;
 }
 
 a {
