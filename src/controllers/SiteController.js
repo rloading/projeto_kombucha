@@ -121,14 +121,18 @@ class SiteController {
         error: 'Erro inesperado'
       })
     }
+
+    console.log(user)
+      console.log('-----------------')
   }
 
-  static compraEfetuada(req, res) {
+  static async compraEfetuada(req, res) {
+
     res.render('compra', {
       title: 'Compra Efetuada'
     })
+    
     req.session.destroy()
-
   }
 
   static doLogout(req, res) {

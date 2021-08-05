@@ -9,6 +9,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png" />
   <link rel="stylesheet" href="/css/carrinho.css" />
+  <link rel="stylesheet" href="/css/login.css" />
   <title>Carrinho - OHMBUCHA</title>
 </head>
 
@@ -50,42 +51,16 @@
 
       <div class="col-75">
         <div class="container">
-          <form action="/compra" method="POST">
-            <div class="col-50">
-              <h2>Pagamento</h2>
-              <br />
-              <label for="fname">Cartões</label>
-              <div class="icon-container">
-                <i class="fab fa-cc-visa"></i>
-                <i class="fab fa-cc-mastercard"></i>
-                <i class="fab fa-cc-amex"></i>
-              </div>
-              <label for="cname">Nome no cartão</label>
-              <input type="text" id="cname" name="cardname" placeholder="Ex: Manolo da Silva" required />
-              <label for="ccnum">Número do cartão</label>
-              <input type="text" maxlength="16" id="ccnum" name="ccnum" placeholder="Ex: 9999 9999 9999 9999"
-                required />
-
-              <div class="row">
-                <div class="col-50">
-                  <label for="expmonth">Mês</label>
-                  <input type="number" min="01" max="12" maxlength="2" id="expmonth" name="expmonth"
-                    placeholder="Ex: 01" required />
-                  <label for="expyear">Ano</label>
-                  <input type="number" min="2021" max="2028" maxlength="4" id="expyear" name="expyear"
-                    placeholder="Ex: 2021" required />
-                  <label for="cvv">CVV</label>
-                  <input type="text" maxlength="3" id="cvv" name="cvv" placeholder="999" required />
-                </div>
-              </div>
-            </div>
-
-            <input type="submit" value="Finalizar compra" class="btn" />
-          </form>
+          <% if (locals.isLogged) { %>
+         <%- include('partials/pagamento-carrinho') %>
+         <% } else { %> 
+        <%- include('partials/login-carrinho')  %>
+        <% } %>
         </div>
       </div>
     </section>
     <%- include('partials/footer') %>
+    
 </body>
 
 </html>

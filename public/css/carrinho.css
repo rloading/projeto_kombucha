@@ -53,6 +53,10 @@ input {
   box-shadow: 0 0 5px #ffed4c;
 }
 
+input#conectado {
+  box-shadow: none;
+}
+
 #expmonth, #expyear, #cvv {
   width: 20%;
 }

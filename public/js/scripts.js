@@ -30,6 +30,14 @@ function sendEmail() {
     }
 }
 
+    
+function clickComprar()
+{
+alert("Item adicionado no carrinho com sucesso!");
+}
+
+
+
 //---- Menu lateral ----//
 
 let btnMenu = document.getElementById("btnMenu")
