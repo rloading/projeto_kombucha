@@ -31,7 +31,7 @@ body {
   display: flex;
   align-items: center;
   font-family: var(--font-secondary);
-  font-size: 1.5vw;
+  font-size: 3vw;
 }
 
 .logo label:hover {
@@ -82,12 +82,13 @@ button#btn-login:hover {
 }
 
 p {
-  font-size: 1vw;
+  font-size: 2.5vw;
 }
 
-a {
+a, small{
   text-decoration: none;
   color: #ffed4c;
+  font-size: 1.5vw;
 }
 
 @media only screen and (max-width: 768px) {

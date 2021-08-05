@@ -4,11 +4,9 @@
   display: inline-flex;
   justify-content: left;
   flex-wrap: wrap;
-  align-items: center; 
-  
+  align-items: center;  
   background-color: rgb(131, 165, 100, 0.7);
-  width: 100%;
-  
+  width: 100%;  
 }
 
 .logo {

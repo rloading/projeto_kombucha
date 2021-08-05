@@ -42,7 +42,7 @@ b, h2, label {
   font-size: 2vh;
 }
 
-input {
+input#email, input#password {
   align-content: right;
   width: 75%;
   margin-bottom: 10px;
