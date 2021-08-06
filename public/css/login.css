@@ -81,7 +81,7 @@ p {
 a, small{
   text-decoration: none;
   color: #ffed4c;
-  font-size: 1.5vw;
+  font-size: 1vw;
 }
 
 @media only screen and (max-width: 768px) {
